@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+}
+
+header>div {
+    margin: 20px;
+}
+
+header>div>h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+header>div>h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff101;
+}
+
+header>img {
+    margin: 20px;
+    width: 40%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1050px;
+    margin: auto;
+    padding: 50px 15px;
+}
+
+.list>img {
+    width: 25%;
+    margin: 30px;
+}
+
+.list>div {
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.list>div>ul>li {
+    margin: 15px 0;
+    list-style: none;
+}
+
+.typeContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typeContent>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    width: 30%;
+    text-align: center;
+}
+
+.typeContent>div>img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.typeContent>div>p {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+section {
+    max-width: 1050px;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+section>p {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+section>p>span {
+    color: red;
+}
+
+.pay>div>img {
+    width: 20%;
+    margin: 40px;
+}
+
+.pay>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay>div>div {
+    margin: 40px;
+}
+
+.pay>div>div>p {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pay>div>div>.value {
+    color: red;
+    font-size: 2rem;
+}
+
+.pay>div>div>.value>strong>span {
+    text-decoration: line-through;
+}
+
+.pay>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
